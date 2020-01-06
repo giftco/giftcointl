@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>giftco2.2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .box3 {
+            background-color: #fefeff;
+
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas:
+                "box3";
+        }
+
+        .box3 {
+            grid-area: box3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box3 img {
+            width: 100%;
+        }
+
+        .chaticon {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 78px;
+            height: 78px;
+            z-index: 10;
+
+        }
+
+        .chaticon img {
+
+            width: 78px;
+            height: 78px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <img src="chat.png" alt="" class="chaticon">
+        <div class="box3">
+
+            <img src="/homdark2.2light.png" alt="">
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
